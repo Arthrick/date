@@ -1039,6 +1039,6 @@ body {
 html {
   overflow: hidden;
   font-family: "Petit Formal Script";
-  background: radial-gradient(ellipse at center, #051838, #0A093B 100%);
+  background: radial-gradient(ellipse at center, #000000, #000000 100%);
   color: #fff;
 }
