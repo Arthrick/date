@@ -1,0 +1,36 @@
+body {
+    font-family: 'Times New Roman', sans-serif;
+}
+canvas {
+    background-color:#312;
+  }
+
+
+#testCanvas {
+    position: relative;
+    z-index: 1;
+}
+
+#gif {
+    position: absolute;
+    z-index: 2;
+    top: 400px; /* Posición vertical */
+    left: 650px; /* Posición horizontal */
+    width: 30%; /* Ancho del GIF */
+    height: 50%; /* Alto del GIF */
+}
+
+
+@media (max-width: 768px) {
+  #testCanvas {
+    width: 90%;
+    height: 60vh;
+  }
+}
+
+@media (max-width: 480px) {
+  #testCanvas {
+    width: 80%;
+    height: 50vh;
+  }
+}
